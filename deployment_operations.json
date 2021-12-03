@@ -1,0 +1,32 @@
+[
+  {
+    "id": "/subscriptions/fad2613b-554b-43b0-8451-3a371d2bf3ae/resourceGroups/CERTUSJ46_Grupo12/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-d6d15590-b23b/operations/BEBE1FEA9D34DAB3",
+    "operationId": "BEBE1FEA9D34DAB3",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-12-03T01:00:07.5967016Z",
+      "duration": "PT28.795247S",
+      "trackingId": "f6b9868a-da6b-43dd-9ac1-800fceed98b1",
+      "serviceRequestId": "534414fa-968a-42a2-ae14-9cd46260bfad",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/fad2613b-554b-43b0-8451-3a371d2bf3ae/resourceGroups/CERTUSJ46_Grupo12/providers/Microsoft.Web/sites/J46-Grupo12-Saludweb",
+        "resourceType": "Microsoft.Web/sites",
+        "resourceName": "J46-Grupo12-Saludweb"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/fad2613b-554b-43b0-8451-3a371d2bf3ae/resourceGroups/CERTUSJ46_Grupo12/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-d6d15590-b23b/operations/08585631137097256386",
+    "operationId": "08585631137097256386",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-12-03T01:00:07.7734059Z",
+      "duration": "PT28.9719513S",
+      "trackingId": "e282186e-a86a-4ac0-aedb-04b0b7475ffa",
+      "statusCode": "OK"
+    }
+  }
+]

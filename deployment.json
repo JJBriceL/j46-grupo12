@@ -1,0 +1,71 @@
+{
+  "id": "/subscriptions/fad2613b-554b-43b0-8451-3a371d2bf3ae/resourceGroups/CERTUSJ46_Grupo12/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-d6d15590-b23b",
+  "name": "Microsoft.Web-WebApp-Portal-d6d15590-b23b",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/fad2613b-554b-43b0-8451-3a371d2bf3ae/resourcegroups/CERTUSJ46_Grupo12/providers/Microsoft.Web/sites/J46-Grupo12-Saludweb",
+    "marketplaceItemId": "Microsoft.WebSite",
+    "provisioningHash": "customize-post-provisioning-steps-webapp-deployment"
+  },
+  "properties": {
+    "templateHash": "2513508777843989780",
+    "parameters": {
+      "subscriptionId": {
+        "type": "String",
+        "value": "fad2613b-554b-43b0-8451-3a371d2bf3ae"
+      },
+      "name": {
+        "type": "String",
+        "value": "J46-Grupo12-Saludweb"
+      },
+      "location": {
+        "type": "String",
+        "value": "Brazil South"
+      },
+      "hostingPlanName": {
+        "type": "String",
+        "value": "ASP-CERTUSrecursos-a0b3"
+      },
+      "serverFarmResourceGroup": {
+        "type": "String",
+        "value": "CERTUS_recursos"
+      },
+      "alwaysOn": {
+        "type": "Bool",
+        "value": false
+      },
+      "linuxFxVersion": {
+        "type": "String",
+        "value": "NODE|14-lts"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2021-12-03T01:00:07.8182915Z",
+    "duration": "PT30.4844601S",
+    "correlationId": "838c4d2a-0a5c-4c27-bc43-d563fa9e1b99",
+    "providers": [
+      {
+        "namespace": "Microsoft.Web",
+        "resourceTypes": [
+          {
+            "resourceType": "sites",
+            "locations": [
+              "brazilsouth"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "outputResources": [
+      {
+        "id": "/subscriptions/fad2613b-554b-43b0-8451-3a371d2bf3ae/resourceGroups/CERTUSJ46_Grupo12/providers/Microsoft.Web/sites/J46-Grupo12-Saludweb"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}
