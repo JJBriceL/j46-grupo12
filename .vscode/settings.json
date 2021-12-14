@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/fad2613b-554b-43b0-8451-3a371d2bf3ae/resourceGroups/CERTUSJ46_Grupo12/providers/Microsoft.Web/sites/J46-Grupo12-Saludweb",
+    "appService.deploySubpath": "."
+}
